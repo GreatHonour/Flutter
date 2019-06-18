@@ -37,6 +37,46 @@ class Home extends StatelessWidget {
                 Navigator.of(context).pushNamed("MyStatefulWidget");
               },
             ),
+            FlatButton(
+              child: Text("DrawerWidget"),
+              textColor: Colors.yellow,
+              onPressed: () {
+                // 同过名字跳转到信页面
+                Navigator.of(context).pushNamed("DrawerWidget");
+              },
+            ),
+            FlatButton(
+              child: Text("MyContainer"),
+              textColor: Colors.yellow,
+              onPressed: () {
+                // 同过名字跳转到信页面
+                Navigator.of(context).pushNamed("MyContainer");
+              },
+            ),
+            FlatButton(
+              child: Text("SetImage"),
+              textColor: Colors.pink,
+              onPressed: () {
+                // 同过名字跳转到信页面
+                Navigator.of(context).pushNamed("SetImage");
+              },
+            ),
+             FlatButton(
+              child: Text("EventIndex"),
+              textColor: Colors.red,
+              onPressed: () {
+                // 同过名字跳转到信页面
+                Navigator.of(context).pushNamed("EventIndex");
+              },
+            ),
+            FlatButton(
+              child: Text("DragList"),
+              textColor: Colors.red,
+              onPressed: () {
+                // 同过名字跳转到信页面
+                Navigator.of(context).pushNamed("DragList");
+              },
+            ),
           ],
         ),
       ),

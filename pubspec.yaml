@@ -27,6 +27,7 @@ dependencies:
   # 似乎写上包知乎，按保存会自动下载依赖
   cupertino_icons: ^0.1.2
   english_words: ^3.1.3
+  transparent_image: "^1.0.0" 
 
 # 开发环境需要的依赖包，而不是我们需要
 dev_dependencies:
@@ -53,6 +54,7 @@ flutter:
   # 添加图片
   assets:
     - assets/images/bg.png
+    - assets/images/blue.jpg
     - assets/json/bg.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
